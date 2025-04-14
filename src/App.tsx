@@ -19,7 +19,7 @@ function App() {
 	const [showResults, setShowResults] = useState(false);
 
 	useEffect(() => {
-		fetch("https://sentence-construction-iota.vercel.app/:3001/data")
+		fetch("https://sentence-construction-backend-oyhl.onrender.com/data")
 			.then((response) => response.json())
 			.then((data: QuizData) => {
 				setQuestions(data.data.questions);
