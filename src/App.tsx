@@ -134,7 +134,7 @@ function App() {
 					<div className="flex justify-end mb-4">
 						<Timer
 							key={currentQuestionIndex}
-							duration={10}
+							duration={60}
 							onTimeUp={handleTimeUp}
 						/>
 					</div>
